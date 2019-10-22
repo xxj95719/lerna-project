@@ -2,14 +2,15 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "commit": "npx git-cz"
+    "release": "standard-version"
   },
   "devDependencies": {
-    "lerna": "^3.18.2"
+    "lerna": "^3.18.2",
+    "standard-version": "^7.0.0"
   },
   "config": {
     "commitizen": {
-      "path": "cz-emoji"
+      "path": "cz-conventional-changelog"
     }
   }
 }
