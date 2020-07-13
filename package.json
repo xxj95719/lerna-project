@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "lerna": "^3.18.2",
-    "standard-version": "^7.0.0"
+    "standard-version": "^8.0.1"
   },
   "config": {
     "commitizen": {
